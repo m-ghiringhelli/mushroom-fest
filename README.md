@@ -3,20 +3,21 @@ Use [this template](https://github.com/alchemycodelab/half-baked-web-01-mushroom
 
 # Plan
 I) Display mushrooms and friends on load
-    A) Display mushrooms
-        1) Clear mushroom div
-        2) Loop through and add a mushroom for every iteration for mushroom count
+    A) Display mushrooms    CHECK
+        1) Clear mushroom div   CHECK
+        2) Loop through and add a mushroom for every iteration for mushroom count   CHECK
     B) Display friends
-        1) Clear out friends
-        2) Feed friend object into displayFriend (creates html from object)
+        1) Clear out friends    CHECK
+        2) Feed friend object into displayFriend (creates html from object) CHECK
         3) Add event listener to friend, on click
-            a) if mushroom left and friend less than satisfied
-            b) decrement mushroom   update state
-            c) increment satisfaction   update state
-            d) display friends  update DOM
-            e) display mushrooms    update DOM
-            f) If satisfied, no more mushroom
+            a) if mushroom left and friend less than satisfied  CHECK
+            b) decrement mushroom   update state    CHECK
+            c) increment satisfaction   update state    CHECK
+            d) display friends  update DOM  CHECK
+            e) display mushrooms    update DOM  CHECK
+            f) If satisfied, no more mushroom   CHECK
             g) If no mushroom, alert to forage
+        4) Append friends to DOM CHECK
 II) Invite creates and displays new unsatisfied friend
     A) add event listener to adding friend
     B) on submit
