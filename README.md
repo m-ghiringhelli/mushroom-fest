@@ -6,7 +6,7 @@ I) Display mushrooms and friends on load
     A) Display mushrooms    CHECK
         1) Clear mushroom div   CHECK
         2) Loop through and add a mushroom for every iteration for mushroom count   CHECK
-    B) Display friends
+    B) Display friends  CHECK
         1) Clear out friends    CHECK
         2) Feed friend object into displayFriend (creates html from object) CHECK
         3) Add event listener to friend, on click
@@ -16,15 +16,15 @@ I) Display mushrooms and friends on load
             d) display friends  update DOM  CHECK
             e) display mushrooms    update DOM  CHECK
             f) If satisfied, no more mushroom   CHECK
-            g) If no mushroom, alert to forage
+            g) If no mushroom, alert to forage  CHECK
         4) Append friends to DOM CHECK
-II) Invite creates and displays new unsatisfied friend
-    A) add event listener to adding friend
-    B) on submit
-        1) create new friend object
-            a) with given name or random
-            b) with random satisfaction
-        2) pass new friend object to display friends function
+II) Invite creates and displays new unsatisfied friend CHECK
+    A) add event listener to adding friend  CHECK
+    B) on submit    CHECK
+        1) create new friend object CHECK
+            a) with given name or random CHECK
+            b) with random satisfaction CHECK
+        2) pass new friend object to display friends function   CHECK
 III) Forage adds more mushroom is successful
     A) Event listener
     B) On click
