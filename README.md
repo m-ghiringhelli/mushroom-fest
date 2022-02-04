@@ -1,5 +1,40 @@
 # Mushroom Festival
 Use [this template](https://github.com/alchemycodelab/half-baked-web-01-mushroom-festival) to get started.
+
+# Plan
+I) Display mushrooms and friends on load
+    A) Display mushrooms
+        1) Clear mushroom div
+        2) Loop through and add a mushroom for every iteration for mushroom count
+    B) Display friends
+        1) Clear out friends
+        2) Feed friend object into displayFriend (creates html from object)
+        3) Add event listener to friend, on click
+            a) if mushroom left and friend less than satisfied
+            b) decrement mushroom   update state
+            c) increment satisfaction   update state
+            d) display friends  update DOM
+            e) display mushrooms    update DOM
+            f) If satisfied, no more mushroom
+            g) If no mushroom, alert to forage
+II) Invite creates and displays new unsatisfied friend
+    A) add event listener to adding friend
+    B) on submit
+        1) create new friend object
+            a) with given name or random
+            b) with random satisfaction
+        2) pass new friend object to display friends function
+III) Forage adds more mushroom is successful
+    A) Event listener
+    B) On click
+        1) Check if mushroom found
+        2) Alert if found
+        3) display mushrooms
+IV) Friend click disappears mushroom and satisfies friend
+    1) Taken care of in friend event listener
+V) If friend is satisfied, no more mushroom, if feed friend and no mushrooms get more
+    2) Taken care of in friend event listener
+
 ## Learning Objectives
 
 -   In response to a user event, mutate a single object in a state array and display the new state to the user (i.e., complete a todo).
